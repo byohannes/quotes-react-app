@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   const [randomQuote, setRandomQuote] = useState({});
 
-  const api_url = 'https://cyf--berhaneyohannes.repl.co/quotes/random';
+  const api_url = 'https://cyf-byohannes-quote.glitch.me/quotes/random';
   const getQuote = () => {
     fetch(api_url)
       .then((res) => res.json())
